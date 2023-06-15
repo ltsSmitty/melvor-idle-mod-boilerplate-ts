@@ -1,5 +1,5 @@
 {
-  "namespace": "mbts",
+  "namespace": "reverse_xp_speedrun",
   "icon": "img/icon.png",
   "setup": "setup.mjs",
   "load": ["templates.min.html"]

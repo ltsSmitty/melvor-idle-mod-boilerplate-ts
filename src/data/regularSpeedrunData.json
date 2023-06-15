@@ -1,0 +1,50 @@
+{
+  "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+  "data": {
+    "gamemodes": [
+      {
+        "id": "standardSpeedrun",
+        "name": "Standard Speedrun",
+        "media": "assets/icon.png",
+        "rules": [
+          "All Skills Unlocked.",
+          "No bank space purchase limit.",
+		  "-80% Attack Interval for you and the Enemies.",
+          "-80% Skill Intervals.",
+          "+800% Global Mastery XP.",
+		  "+500% Township Productions/Storage",
+          "-2s Monster Respawn Timer"
+        ],
+        "textClass": "text-warning",
+        "btnClass": "btn-gamemode-standard",
+        "isPermaDeath": false,
+        "isEvent": false,
+        "endDate": 0,
+        "combatTriangle": "Standard",
+        "hitpointMultiplier": 10,
+        "hasRegen": true,
+        "capNonCombatSkillLevels": false,
+        "startingPage": "melvorD:Woodcutting",
+        "startingItems": [],
+        "allowSkillUnlock": false,
+        "skillUnlockCost": [],
+        "playerModifiers": {
+		  "decreasedAttackIntervalPercent": 80,
+		  "decreasedMonsterRespawnTimer": 2000,
+		  "decreasedGlobalSkillIntervalPercent": 80,
+          "increasedGlobalMasteryXP": 800,
+		  "increasedTownshipHappiness": 500,
+		  "increasedTownshipEducation": 500,
+		  "increasedTownshipHealth": 500,
+		  "increasedTownshipGPProduction": 500,
+		  "increasedTownshipMaxStorage": 500,
+		  "increasedTownshipResourceProduction": 500
+        },
+        "enemyModifiers": {
+			"decreasedAttackIntervalPercent": 80
+		},
+        "hasTutorial": true
+      }
+    ]
+  }
+}

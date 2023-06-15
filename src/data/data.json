@@ -1,6 +1,74 @@
 {
   "$schema": "https://melvoridle.com/assets/schema/gameData.json",
   "data": {
-    
+     "gamemodes": [
+      {
+        "id": "reverse_xp_speedrun",
+        "name": "Reverse XP Collection Log Speedrun",
+        "media": "assets/icon.png",
+        "rules": [
+          "Skills start at 99 and XP decreases.",
+          "Can you items, pets, and monsters before running out of time?",
+          "Standard speedrun rules & combat triangle."
+        ],
+        	"description": "Speedrun from lvl 99 down to 1, getting all pets and items.",
+        "textClass": "",
+        "btnClass": "btn-gamemode-rxpsr",
+        "isPermaDeath": false,
+        "isEvent": false,
+        "endDate": 0,
+        "combatTriangle": "Standard",
+        "hitpointMultiplier": 10,
+        "hasRegen": true,
+        "capNonCombatSkillLevels": false,
+        "startingPage": "melvorD:Woodcutting",
+        "startingItems": [],
+        "allowSkillUnlock": false,
+        "skillUnlockCost": [],
+        "playerModifiers": {
+        "decreasedGlobalSkillXP": 200,
+
+		  "decreasedAttackIntervalPercent": 80,
+		  "decreasedMonsterRespawnTimer": 2000,
+		  "decreasedGlobalSkillIntervalPercent": 80,
+          "increasedGlobalMasteryXP": 800,
+		  "increasedTownshipHappiness": 500,
+		  "increasedTownshipEducation": 500,
+		  "increasedTownshipHealth": 500,
+		  "increasedTownshipGPProduction": 500,
+		  "increasedTownshipMaxStorage": 500,
+		  "increasedTownshipResourceProduction": 500
+        },
+        "enemyModifiers": {
+			"decreasedAttackIntervalPercent": 80
+		},
+        "hasTutorial": false,
+        "startingSkills": [
+          			"melvorD:Attack",
+					"melvorD:Strength",
+					"melvorD:Defence",
+					"melvorD:Hitpoints",
+					"melvorD:Ranged",
+					"melvorD:Magic",
+					"melvorD:Slayer",
+					"melvorD:Prayer",
+          "melvorD:Farming",
+          "melvorD:Woodcutting",
+          "melvorD:Fishing",
+          "melvorD:Firemaking",
+          "melvorD:Cooking",
+          "melvorD:Mining",
+          "melvorD:Smithing",
+          "melvorD:Thieving",
+          "melvorD:Fletching",
+          "melvorD:Crafting",
+          "melvorD:Runecrafting",
+          "melvorD:Herblore",
+          "melvorD:Agility",
+          "melvorD:Summoning",
+          "melvorD:Astrology"
+        ]
+      }
+    ]
   }
 }
