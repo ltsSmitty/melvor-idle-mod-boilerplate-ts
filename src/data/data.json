@@ -31,13 +31,7 @@
 		  "decreasedAttackIntervalPercent": 80,
 		  "decreasedMonsterRespawnTimer": 2000,
 		  "decreasedGlobalSkillIntervalPercent": 80,
-          "increasedGlobalMasteryXP": 800,
-		  "increasedTownshipHappiness": 500,
-		  "increasedTownshipEducation": 500,
-		  "increasedTownshipHealth": 500,
-		  "increasedTownshipGPProduction": 500,
-		  "increasedTownshipMaxStorage": 500,
-		  "increasedTownshipResourceProduction": 500
+          "increasedGlobalMasteryXP": 800
         },
         "enemyModifiers": {
 			"decreasedAttackIntervalPercent": 80
